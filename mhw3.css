@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+}
+
+.copertina{
+    background: url(copertina.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100vw;
+    border-bottom: 2px solid black;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header em{
+    display: inline-block;
+    color: white;
+    width: 780px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Alkatra', georgia;
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:-50px;
+}
+
+#logo span{
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.img{
+    background: url(profilo.jpg);
+    background-position: center;
+    background-size: cover;
+
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#nv{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+
+    top:0px;
+    width: 100vw;
+    padding-top: 10px;
+}
+
+#nv a{
+    font-size: 30px;  
+    font-family: 'Alkatra', georgia;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+}
+
+#nv a:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#st{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+
+.foot{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+footer span{
+    color:white;
+    font-family: 'Alkatra', georgia;
+}
+
+
+#menu{
+    display: none;
+}
+
+#st form{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.art{
+    margin: auto;
+    background-color: rgb(255, 44, 44);
+    margin-bottom: 60px;
+}
+
+#info{
+    display: flex;
+}
+
+#info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+    font-size: larger;
+    color: aliceblue;
+}
+
+#st span{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 5px;
+    width: 200px;
+
+    border-bottom: 2px solid black;
+}
+
+.im{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.hidden{
+    display: none;
+}
+
+.h{
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.help{
+    opacity: 0.9; 
+    color: #AAA;
+    font-size: small;
+    font-family: 'Delicious Handrawn', cursive;
+}
